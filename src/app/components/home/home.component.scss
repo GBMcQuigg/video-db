@@ -6,19 +6,19 @@
   
   ::ng-deep {
     .mat-form-field-infix {
-      background-color: #3f51b5;
+      background-color: #190d80;
     }
   
     .mat-select-value,
     .mat-select-arrow,
     .mat-form-field-hide-placeholder .mat-select-placeholder,
     .mat-form-field-appearance-legacy .mat-form-field-label {
-      color: #fff !important;
+      color: rgb(255, 255, 255) !important;
       opacity: 1;
     }
   
     .mat-form-field-infix {
-      border-color: #fff !important;
+      border-color: rgb(0, 0, 0) !important;
       border-top: none;
       padding-left: 5px !important;
     }
@@ -28,7 +28,7 @@
     }
   
     .mat-form-field-appearance-legacy .mat-form-field-underline {
-      background-color: #fff !important;
+      background-color: rgb(14, 0, 0) !important;
     }
   }
 
@@ -47,7 +47,7 @@
   height: 330px;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #202020;
+  background-color: #190d80;
   box-shadow: 4px 3px 8px 0px rgb(200 152 44 / 22%);
   transition-duration: 0.3s;
   cursor: pointer;
@@ -58,10 +58,10 @@
   }
 
   &-thumb-container {
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     position: relative;
     height: 172px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -83,7 +83,7 @@
   }
 
   &-name {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 20px;
